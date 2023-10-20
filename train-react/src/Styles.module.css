@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  letter-spacing: -0.5px;
+}
+
+.conteiner {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+.nav {
+  width: 100%;
+  background-color: #171718;
+  color: #fff;
+  padding: 20px 0;
+  letter-spacing: normal;
+  border-bottom: 1px solid #26292D;
+}
+
+.navRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Popins", sans-serif;
+}
+.logo a {
+  color: #fff;
+}
+.logo strong {
+  font-weight: 700;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Popins", sans-serif;
+}
+
+.navListLink {
+  color: #fff;
+}
+
+.navListLinkActive {
+  position: relative;
+}
+
+.navListLinkActive::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #5C62EC;
+}
+
+/*----------Header---------*/
+.header {
+  padding: 40px 0;
+  min-height: 695px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Abstract.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  background-color: #171718;
+  color: #fff;
+}
+
+.headerWrapper {
+  padding: 0 15px;
+  max-width: 660px;
+}
+
+.headerTitle {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 140%;
+}
+.headerTitle strong {
+  font-size: 60px;
+}
+.headerTitle em {
+  font-style: normal;
+  color: #5C62EC;
+}
+
+.headerText {
+  line-height: 24px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.headerA {
+  display: inline-block;
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 16px;
+  background-color: #5C62EC;
+  border-radius: 5px;
+}
+.headerA:hover {
+  color: #000000;
+  background-color: #fff;
+  transition: 0.5;
+}
+.headerA:active {
+  position: relative;
+  top: 1px;
+}/*# sourceMappingURL=Styles.module.css.map */
